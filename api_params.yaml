@@ -1,0 +1,14 @@
+environments:
+  - name: devHost
+    endpoints:
+      production:
+      sandbox:
+  - name: prodHost
+    endpoints:
+      production:
+      sandbox:
+
+deploy:
+  import:
+    update: true
+    preserveProvider: true
